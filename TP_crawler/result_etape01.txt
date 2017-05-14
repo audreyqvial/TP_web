@@ -1,0 +1,601 @@
+	
+		<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" media="all" href="/css/fpo_8.css" />
+<script type="text/javascript">
+var plstart = new Date();
+</script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-174791-1']);
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="title" content="Method for and use of digital holographic microscopy and imaging on labelled cell samples - Phase Holographic Imaging PHI AB" />
+<meta name="description" content="The present invention relates to use of a digital holographic microscopy and imaging setup and a method of digital holographic microscopy and imaging for detecting molecules or structures stained or l" />
+<meta name="robots" content="index, follow" />
+<title>Method for and use of digital holographic microscopy and imaging on labelled cell samples - Phase Holographic Imaging PHI AB</title>
+<link rel="canonical" href="http://www.freepatentsonline.com/8937756.html" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<!--[if IE 6]>
+    <link href="/css/ie6.min.css" rel="stylesheet">
+<![endif]-->
+
+
+<link rel="shortcut icon" href="/images/favicon_1.ico"/>
+    <meta name='DC.identifier' content='US8937756' />
+<meta name='DC.type' content='Patent' />
+<meta name='DC.title' content='Method for and use of digital holographic microscopy and imaging on labelled cell samples' />
+<meta name='DC.creator' scheme='inventor' content='Sebesta, Mikael' />
+<meta name='DC.creator' scheme='inventor' content='Alm, Kersti' />
+<meta name='DC.creator' scheme='inventor' content='L&aring;ngberg, Anders' />
+<meta name='DC.creator' scheme='inventor' content='M&ouml;lder, Anna' />
+<meta name='DC.creator' scheme='inventor' content='Persson, Johan' />
+<meta name='DC.creator' scheme='inventor' content='Gisselsson, Lennart' />
+<meta name='DC.contributor' scheme='assignee' content='Phase Holographic Imaging PHI AB' />
+<meta name='DC.coverage' content='US' />
+<meta name='DC.date' scheme='issued' content='2015-01-20' />
+<meta name='DC.date' scheme='submitted' content='2011-02-07' />
+<meta name='citation_patent_application_number' content='13/521701' />
+<meta name='DC.relation' scheme='references' content='US20090128825' />
+<meta name='DC.relation' scheme='references' content='US20090067018' />
+<meta name='DC.relation' scheme='references' content='US20060256676' />
+<meta name='DC.relation' scheme='references' content='US20050130163' />
+<meta name='DC.relation' scheme='references' content='US20050036181' />
+<meta name='DC.relation' scheme='references' content='US20040156098' />
+<meta name='DC.relation' scheme='references' content='US6262818' />
+<meta name='DC.relation' scheme='references' content='WO2006090320A1' />
+<meta name='DC.relation' scheme='references' content='WO2007073345A1' />
+<meta name='DC.relation' scheme='references' content='WO2009154558A1' />
+</head>
+<body class="fullWidthContainer">
+
+<div>
+    <a name="top"></a>
+
+    <div class="container-fluid">
+        
+<div class="header">
+    <div class="row-fluid top">
+
+        <div class="pull-left figure">
+            <a href="/" onclick="_gaq.push(['_trackEvent', 'Header', 'Click', 'Logo']);"></a>
+        </div>
+
+
+        <div class="pull-right" style="width: 750px;">
+                        <div class="loginForm">
+                <form class="form-inline form-mini pull-right" action="/login.html" method="post">
+                    <input type="hidden" name="src" value="header_login">
+                    <input id="UID-top" name="UID" type="text" class="input-large" placeholder="Email">
+                    <input id="PWD-top" name="PWD" type="password" class="input-small" placeholder="Password">
+                    <button type="submit" class="btn btn-mini btn-primary"
+                            onclick="_gaq.push(['_trackEvent', 'Header', 'Click', 'Login']);">Login
+                    </button>
+                    <a class="btn btn-mini btn-info" href="/register.html"
+                            onclick="_gaq.push(['_trackEvent', 'Header', 'Click', 'Create']);">Sign up
+                    </a>
+                </form>
+            </div>
+            
+
+            <div class="searchForm well">
+                <form id="quick_result" name="quick_result" class="form-inline" action="/result.html" method="get"
+                      data-social-search-url="http://research.freepatentsonline.com/search/site">
+
+                    <input type="hidden" name="sort" value="relevance">
+                    <input type="hidden" name="srch" value="top">
+
+
+                    <div class="searchBox pull-left">
+                        <input type="text" name="query_txt" placeholder="Enter your search here"
+                               class="search-query" id="topSearchBox">
+
+                        <div class="btn-group">
+                            <button name="submit" class="btn btn-primary" type="submit"
+                                    onclick="_gaq.push(['_trackEvent', 'Header', 'Click', 'Search']);">Search
+                            </button>
+                            <button id="searchBox_dropdown" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="/search.html"
+                                       onclick="_gaq.push(['_trackEvent', 'Header', 'Click', 'SearchExpert']);document.cookie = 'searchTab=#expert';">
+                                    Expert Search</a>
+                                </li>
+                                <li><a href="/search.html"
+                                       onclick="_gaq.push(['_trackEvent', 'Header', 'Click', 'SearchQuick']);document.cookie = 'searchTab=#quick';">
+                                    Quick Search</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="sideCollections pull-right">
+                        <ul id="header_search_top" class="borderBottom ul-mini ">
+                            <li>
+                                <label onclick="deselect_bottom_row();" class="checkbox">
+                                    <input type="checkbox" id="patents" name="patents"
+                                           value="on" checked="checked">Patents/Apps
+                                </label>
+                            </li>
+
+                            <li>
+                                <label onclick="deselect_bottom_row();" class="checkbox">
+                                    <input type="checkbox" id="npl_lit" name="npl" value="on">
+                                    Non-Patent Literature
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </form>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <div class="row-fluid">
+        <div class="navbar navbar-inverse center" id="primaryNavBar">
+            <div class="navbar-inner">
+                <ul class="nav">
+                    <li><a href="/"></a></li>
+                    <li><a href="/search.html">SEARCH</a></li>
+                    <li>
+                        <a href="http://research.freepatentsonline.com"
+                           onclick="_gaq.push(['_trackEvent', 'Navbar', 'Click', 'Research']);">
+                            RESEARCH</a>
+                    </li>
+                    <li>
+                        <a href="http://research.freepatentsonline.com/mpep"
+                           onclick="_gaq.push(['_trackEvent', 'Navbar', 'Click', 'MPEP']);">
+                            MPEP 2.0</a>
+                    </li>
+                    <li>
+                        <a href="/tools-resources.html"
+                           onclick="_gaq.push(['_trackEvent', 'Navbar', 'Click', 'Resources']);">
+                            TOOLS &amp; RESOURCES
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://research.freepatentsonline.com/acclaimip" onclick="_gaq.push(['_trackEvent', 'Navbar', 'Click', 'AcclaimIP']);">
+                            ACCLAIM IP
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://research.freepatentsonline.com/help"
+                           onclick="_gaq.push(['_trackEvent', 'Navbar', 'Click', 'Help']);">HELP</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+<div class="clearfix"></div>        <div class="fixed-width document-details-wrapper">
+
+            <div id="dhtmltooltip"></div>
+            
+    <style type="text/css">
+        #refs {
+            margin-left: 450px;
+            padding-left: 5px;
+            border-left: 1px solid;
+        }
+
+        #fixed_height {
+            clear: both;
+            height: 6em;
+        }
+    </style>
+
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+    <form name="biblio" action="">
+        <input type="hidden" name="patent" value="8937756"/>
+        <input type="hidden" name="title" value="Method for and use of digital holographic microscopy and imaging on labelled cell samples"/>
+        <input type="hidden" name="number" value="8937756"/>
+        <input type="hidden" name="author" value="Sebesta, Mikael (Dalby, SE), Alm, Kersti (Lund, SE), Långberg, Anders (Trelleborg, SE), Mölder, Anna (Blentarp, SE), Persson, Johan (Malmö, SE), Gisselsson, Lennart (Lund, SE),"/>
+        <input type="hidden" name="author_end" value="Sebesta, Mikael (Dalby, SE), Alm, Kersti (Lund, SE), Långberg, Anders (Trelleborg, SE), Mölder, Anna (Blentarp, SE), Persson, Johan (Malmö, SE), Gisselsson, Lennart (Lund, SE),"/>
+        <input type="hidden" name="year" value="2015"/>
+        <input type="hidden" name="month" value="January"/>
+        <input type="hidden" name="url" value="http://www.freepatentsonline.com/8937756.html"/>
+        <input type="hidden" name="assignee" value="Phase Holographic Imaging PHI AB (Lund, SE)"/>
+        <input type="hidden" name="country" value="United States"/>
+    </form>
+
+
+
+    <!--	TITLE  -->
+    <div class="disp_doc2">
+        <div class="disp_elm_title">Title:</div>
+        <div class="disp_elm_text">
+            <font size="+1"><b>
+                    Method for and use of digital holographic microscopy and imaging on labelled cell samples                </b></font>
+        </div>
+    </div>
+
+    <!--	Document Type   -->
+    <div class="disp_doc2">
+                        <div class="disp_elm_text" style="clear: none;">
+                    United States Patent 8937756                </div>
+            
+                </div>
+    <div style="clear: both"></div>
+
+    <div class="disp_doc2">
+        <div class="disp_elm_text">
+            <!-- 728x90 Responsive 1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1586334167197709"
+     data-ad-slot="2270521617"
+     data-ad-format="auto">
+</ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        </div>
+    </div>
+
+    <!--	Abstract  -->
+    <div class="disp_doc2">
+        <div class="disp_elm_title">Abstract:</div>
+        <div class="disp_elm_text">
+            The present invention relates to use of a digital holographic microscopy and imaging setup and a method of digital holographic microscopy and imaging for detecting molecules or structures stained or labelled to at least one cell or conjugated to antibodies which are bound either directly to said at least one cell or indirectly via another or several antibodies in a chain bound to said at least one cell.         </div>
+    </div>
+
+
+    <div class="disp_doc2">
+        <div class="disp_elm_title"></div>
+
+        <div class="disp_elm_text" style="clear: none;">
+
+            <!-- Responsive sidebar -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1586334167197709"
+     data-ad-slot="5590698414"
+     data-ad-format="auto">
+</ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        </div>
+    </div>
+    <div id="fixed_height" class="disp_elm_text"></div><br id="break"/>
+    <div id="fixed_height" class="disp_elm_text"></div><br id="break"/>
+
+    <!-- Representative Image -->
+
+    <!--	Inventors  -->
+    <div class="disp_doc2">
+        <div class="disp_elm_title">Inventors:</div>
+        <div class="disp_elm_text">
+                            Sebesta, Mikael (Dalby, SE)                <br/>
+                            Alm, Kersti (Lund, SE)                <br/>
+                            Långberg, Anders (Trelleborg, SE)                <br/>
+                            Mölder, Anna (Blentarp, SE)                <br/>
+                            Persson, Johan (Malmö, SE)                <br/>
+                            Gisselsson, Lennart (Lund, SE)                <br/>
+                    </div>
+    </div>
+
+    <!--	Application Number  -->
+    <div class="disp_doc2">
+        <div class="disp_elm_title">Application Number:</div>
+        <div class="disp_elm_text">
+            13/521701        </div>
+    </div>
+
+    <!--    Publication Date  -->
+    <div class="disp_doc2">
+        <div class="disp_elm_title">Publication Date:</div>
+        <div class="disp_elm_text">
+            01/20/2015        </div>
+    </div>
+
+    <!--	Filing Date  -->
+    <div class="disp_doc2">
+        <div class="disp_elm_title">Filing Date:</div>
+        <div class="disp_elm_text">
+            02/07/2011        </div>
+    </div>
+
+    <!--	Export Citation  -->
+    <div class="disp_doc2">
+        <div class="disp_elm_title">Export Citation:</div>
+        <div class="disp_elm_text">
+            <a href="javascript:openpopup('/bibliography.html')"
+               onClick="_gaq.push(['_trackEvent', 'Body', 'Click', 'Biblio']);"> Click for automatic bibliography
+                generation </a>
+        </div>
+    </div>
+
+    <!--	Assignee  -->
+    <div class="disp_doc2">
+        <div class="disp_elm_title">Assignee:</div>
+        <div class="disp_elm_text">
+                            Phase Holographic Imaging PHI AB (Lund, SE)                <br/>
+                    </div>
+    </div>
+
+    <!--	Primary Classes  -->
+            <div class="disp_doc2">
+            <div class="disp_elm_title">Primary Class:</div>
+            <div class="disp_elm_text">
+                <a onClick="_gaq.push(['_trackEvent', 'Body', 'Click', 'Class']);" href="/CCL-359-1.html">359/1</a>            </div>
+        </div>
+    
+    <!--	Other Classes  -->
+                    <div class="disp_doc2">
+            <div class="disp_elm_title">Other Classes:</div>
+            <div class="disp_elm_text">
+                                    356/457,                                    359/10,                                    422/82.05,                                    435/7.1,                                    436/518                            </div>
+        </div>
+    
+
+    <!--	International Classes  -->
+
+    <div class="disp_doc2">
+        <div class="disp_elm_title">International Classes:</div>
+        <div class="disp_elm_text">
+            <i><b>G03H1/00</b></i>; <i><b>C12Q1/02</b></i>; <i><b>G02B21/00</b></i>; <i><b>G03H1/04</b></i>; <i>G03H1/08</i>        </div>
+    </div>
+
+
+    <!--	Ecla Classes  -->
+
+    <!--	Field of Search  -->
+
+    <!--    View Patent Images  -->
+    <div class="disp_doc2">
+        <div class="disp_elm_title">View Patent Images:</div>
+        <div class="disp_elm_text">
+            <a href='/8937756.pdf' rel="nofollow"
+               onclick="_gaq.push(['_trackEvent', 'Body', 'Click', 'PDF']);">Download PDF 8937756                &nbsp;<span class="inline-pdf-image"></span></a>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+                href="http://research.freepatentsonline.com/help#pdf-help"
+                onclick="_gaq.push(['_trackEvent', 'Body', 'Click', 'PDF_Help']);">PDF help</a>
+        </div>
+    </div>
+
+    <!--	US Patent References  -->
+    <div class="disp_doc2">
+        <div class="disp_elm_title">US Patent References:</div>
+                <div class="disp_elm_text">
+                                <table cellpadding="0" cellspacing="0" class="patent_detail__table">
+                <tbody>
+                <tr><td>20090128825</td><td><a onClick="_gaq.push(['_trackEvent', 'Reference_Link', 'with_title', '2009', 1]);" href="/y2009/0128825.html">Apparatus and method for dynamic cellular probing and diagnostics using holographic optical forcing array</a></td><td>2009-05-21</td><td>Akcakir</td><td>356/457</td></tr><tr><td>20090067018</td><td><a onClick="_gaq.push(['_trackEvent', 'Reference_Link', 'with_title', '2009', 2]);" href="/y2009/0067018.html">METHOD OF NONLINEAR HARMONIC HOLOGRAPHY</a></td><td>2009-03-12</td><td>Pu et al.</td><td>359/1</td></tr><tr><td>20060256676</td><td><a onClick="_gaq.push(['_trackEvent', 'Reference_Link', 'with_title', '2006', 3]);" href="/y2006/0256676.html">Method for inteferometric detection of presence or absence of a target analyte of a biological sample on a planar array</a></td><td>2006-11-16</td><td>Nolte et al.</td><td>369/47.1</td></tr><tr><td>20050130163</td><td><a onClick="_gaq.push(['_trackEvent', 'Reference_Link', 'with_title', '2005', 4]);" href="/y2005/0130163.html">Serrs reactive particles</a></td><td>2005-06-16</td><td>Smith et al.</td><td>435/6</td></tr><tr><td>20050036181</td><td><a onClick="_gaq.push(['_trackEvent', 'Reference_Link', 'with_title', '2005', 5]);" href="/y2005/0036181.html">Apparatus and method for digital holographic imaging</a></td><td>2005-02-17</td><td>Marquet et al.</td><td>359/15</td></tr><tr><td>20040156098</td><td><a onClick="_gaq.push(['_trackEvent', 'Reference_Link', 'with_title', '2004', 6]);" href="/y2004/0156098.html">Method and device for obtaining a sample with three-dimensional microscopy</a></td><td>2004-08-12</td><td>Dubois et al.</td><td>359/368</td></tr><tr><td>6262818</td><td><a onClick="_gaq.push(['_trackEvent', 'Reference_Link', 'with_title', '62', 7]);" href="/6262818.html">Method for simultaneous amplitude and quantitative phase contrast imaging by numerical reconstruction of digital holograms</a></td><td>2001-07-17</td><td>Cuche et al.</td><td>359/9</td></tr>                </tbody>
+            </table>
+        </div>
+    </div>
+<!-- 728x90 Responsive 2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1586334167197709"
+     data-ad-slot="4118051210"
+     data-ad-format="auto">
+</ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+    <!--	Foreign Patent References:  -->
+    <div class="disp_doc2">
+        <div class="disp_elm_title">Foreign References:</div>
+        <div class="disp_elm_text">
+                        <table>
+                <tbody>
+                <tr><td>WO2006090320A1</td><td>2006-08-31</td><td></td><td></td><td>WAVE FRONT SENSING METHOD AND APPARATUS</td></tr><tr><td>WO2007073345A1</td><td>2007-06-28</td><td></td><td></td><td>METHOD AND APPARATUS FOR ANALYSIS OF A SAMPLE OF CELLS</td></tr><tr><td>WO2009154558A1</td><td>2009-12-23</td><td></td><td></td><td>ANALYSIS OF TRANSPARENT BIOLOGICAL OBJECTS</td></tr>                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!--		Other References  -->
+    <div class="disp_doc2">
+        <div class="disp_elm_title">Other References:</div>
+        <div class="disp_elm_text">
+                            Luo et al., Laser-induced fluorescence imaging of subsurface tissue structures with a volume holographic spatial-spectral imaging system, Optics Letters, vol. 33, No. 18, published Sep. 11, 2008, pp. 2098-2100.                <br/>
+                            Hsieh et al., Three-dimensional harmonic holographic microcopy using nanoparticles as probes for cell imaging, Optics Express, vol. 17, No. 4, published Feb. 11, 2009, pp. 2880-2891.                <br/>
+                            Schlammandinger, J., et al. (2005) “Birefringence of cells grown in vitro and of mitotic chromosomes after staining with picrosiruius red” Brazilian Journal of Morphology Sciences, 22(2):105-111.                <br/>
+                            Supplementary European Search Report for EP Application No. 11 74 2554 dated Jun. 24, 2013.                <br/>
+                            International Preliminary Report on Patentability for PCT/SE2011/050139 mailed on Aug. 14, 2012.                <br/>
+                            Gutzler, T., et al. (2010) “High resolution, wide-field microscopic imaging of biological tissue by coherent synthesis of Fourier holograms” Photonics Society Winter Topicals Meeting Series (WTM), IEEE, pp. 68-69.                <br/>
+                            Mo, X., et al. (2009) “Application of color digital holographic microscopy for analysis of stained tissue sections” Advanced Microscopy Techniques, Progress in Biomedical Optics and Imaging, Proceedings of SPIE, vol. 7367, pp. 736718-1.                <br/>
+                            Warnasooriya, N., et al. (2010) “Imaging gold nanoparticles in living cell environments using heterodyne digital holographic microscopy” Optics Express, vol. 18, No. 5, pp. 3264-3273.                <br/>
+                            International Search Report for PCT/SE2011/050139 dated Apr. 26, 2011.                <br/>
+                    </div>
+    </div>
+
+    <!--	Primary Examiner  -->
+    <div class="disp_doc2">
+        <div class="disp_elm_title">Primary Examiner:</div>
+        <div class="disp_elm_text">
+            Brown, Melanie Y.        </div>
+    </div>
+
+    <!--	Assistant Examiner  -->
+    <div class="disp_doc2">
+        <div class="disp_elm_title">Assistant Examiner:</div>
+        <div class="disp_elm_text">
+            Martinez, Rebecca        </div>
+    </div>
+
+    <!--	Attorney, Agent or Firm  -->
+    <div class="disp_doc2">
+        <div class="disp_elm_title">Attorney, Agent or Firm:</div>
+        <div class="disp_elm_text">
+                            Harness, Dickey & Pierce, P.L.C.                <br/>
+                    </div>
+    </div>
+
+    <!--		Parent Case Data  -->
+    <div class="disp_doc2">
+        <div class="disp_elm_title">Parent Case Data:</div>
+        <div class="disp_elm_text">
+            <h1>PRIORITY STATEMENT</h1><p>This application is a national phase under 35 U.S.C. §371 of PCT International Application No. PCT/SE2011/050139 which has an International filing date of 7 Feb. 2011, which claims priority under 35 U.S.C. §119 to Swedish Patent Application No. 1050131-0, filed on 9 Feb. 2010, and to U.S. Provisional Patent Application No. 61/302,867 filed on 9 Feb. 2010. The contents of each application recited above are incorporated herein by reference in their entirety.</p>        </div>
+    </div>
+
+    <!--	Claims  -->
+    <div class="disp_doc2">
+        <div class="disp_elm_title">Claims:</div>
+        <div class="disp_elm_text">
+            The invention claimed is:<br clear="all"/><br clear="all"/>
+                1.  A method for detecting molecules or structures stained or labelled to at least one cell or conjugated to antibodies which are bound either directly to said at least one cell or indirectly via another or several antibodies in a chain bound to said at least one cell, the molecules or structures being capable of shifting the polarization direction of a beam of light, the method comprising using a digital holographic microscopy and imaging set up to detect the molecules or structures including the steps of: performing digital holographic microscopy and imaging on a cell sample by a) creating at least one object beam and at least one reference beam of light, where said at least one object beam and said at least one reference beam are mutually coherent; b) shifting the polarization direction of the at least one object beam in relation to the at least one reference beam by shifting the polarization direction of the at least one object beam and/or the at least one reference beam; c) exposing said cell sample to said at least one object beam, wherein the polarization direction of said at least one object beam is shifted by utilization of said molecules or structure; d) superimposing said at least one object beam that has passed through said cell sample with said at least one reference beam and thereby creating an interference pattern; e) detecting said interference pattern; f) reconstructing phase and/or amplitude information of object wavefront from said interference pattern; and g) constructing at least one cell analysis image for detection of molecules or structures stained or labelled to at least one cell or conjugated to antibodies which are bound either directly to said at least one cell or indirectly via another or several antibodies in a chain bound to said at least one cell.                    <br clear="all"/><br clear="all"/>
+                    2.  The method according to claim 1, wherein the molecules or structures or the antibodies are bound to the cell surface of said at least one cell.                    <br clear="all"/><br clear="all"/>
+                    3.  The method according to claim 1, wherein the molecules or structures have a light absorption peak within a specific wavelength range.                    <br clear="all"/><br clear="all"/>
+                    4.  The method according to claim 1, wherein more than one type of molecules or structures are stained or labelled to at least one cell at the same place or places of said cell or conjugated to the same type of antibodies which are bound either directly to said at least one cell or indirectly via another or several antibodies in a chain bound to said at least one cell, and wherein at least one of the molecules or structures have a light absorption peak within a specific wavelength range and at least one of the molecules or structures shift the polarization direction of a beam of light used in the digital holographic microscopy and imaging setup.                    <br clear="all"/><br clear="all"/>
+                    5.  The method according to claim 1, further comprising exposing said molecules or structures with light having at least two different wavelengths in comparison to one another.                    <br clear="all"/><br clear="all"/>
+                    6.  The method according to claim 1, further comprising shifting the polarization direction of the at least one object beam of light and/or of the at least one reference beam of light used in the digital holographic microscopy and imaging setup so that the at least one object beam of light and the at least one reference beam of light obtain polarization directions which are perpendicular or substantially perpendicular to each other.                    <br clear="all"/><br clear="all"/>
+                            </div>
+    </div>
+
+    <!--	Description  -->
+    <div class="disp_doc2">
+        <div class="disp_elm_title">Description:</div>
+        <div class="disp_elm_text">
+            <?RELAPP description="Other Patent Relations" end="lead"?><?RELAPP description="Other Patent Relations" end="tail"?><?BRFSUM description="Brief Summary" end="lead"?><h1>TECHNICAL FIELD OF THE INVENTION</h1><p>The present invention relates to a method for and use of digital holographic microscopy and imaging for detecting molecules or structures stained or labelled to at least one cell or conjugated to antibodies which are bound either directly to said at least one cell or indirectly via another or several anti-bodies in a chain bound to said at least one cell.</p><h1>BACKGROUND ART</h1><p>There exists a never ending demand for additional and more accurate information about biological objects, such as cells, in humans, animals, plants and other organisms. Cells are very thin and contain only very few structures that are easily identifiable using a light microscope. Several different methods have been developed to make cells and cell structures more visible. Many of the methods include stains that colour the entire cell or stains that colour only certain cell structures. These stains can be fluorescent or non-fluorescent. An example is trypan blue which is a widely used non-fluorescent stain that colours the entire cell blue. Trypan blue is only used for dead cells. The exact methods used to stain the cells vary as different stains have different properties. A rather recent labelling method is to induce the cell itself to produce a fluorescent substance such as green fluorescent protein (GFP). This labelling can be either very selective, showing a specific cell structure, or non-selective, showing the entire cell. Another widely used method called immuno-labelling is to label the cells using antibodies. Antibodies are proteins that are found in the body fluids of vertebrates. Antibodies bind to substances and particles, e.g. bacteria or viruses, which are thus recognized as foreign objects, and they target very specific structures. This is useful for biological and medical research as antibodies can be used to identify very specific small structures in a cell or parts of a cell. Antibodies are very difficult to detect, but they can be conjugated to a wide array of different molecules or structures that make them clearly visible. Different antibody conjugates are suited for different detection methods such as light microscopy, electron microscopy, spectrometry or radioactivity measurements. Conjugated antibodies can be used to bind directly to a target. If a stronger signal is needed, the signal can be amplified by first allowing unlabelled antibodies to bind to the target, and then allow a second set of conjugated antibodies to bind to the first set of non-conjugated antibodies. The first set of antibodies is called primary anti-bodies and the second set is called secondary antibodies. Further layers of antibodies can be used if the signal needs more amplification.</p><p>Different types of stains, labels and antibody conjugates have different light-related characteristics such as the ability to absorb light at several or a few wavelengths, to emit light at certain wavelengths, to disperse light or to polarize light. These different characteristics allow the stains to show as colouring or fluorescence when using a light microscope, a phase contrast microscope, a fluorescence microscope or a flow cytometer. The stains, labels or conjugates can also be measured using e.g. a spectrophotometer or a fluorescence plate reader.</p><p>Examples of antibody conjugates which render absorption differences are quantum dots, plastic balls, glass beads and semiconductors. Examples of antibody conjugates which scatter light or polarize it are dynabeads, gold particles, nano crystals or magnetic beads.</p><p>Digital holographic microscopy enables the study of living cells without the need for markers. In WO2009/154558, which describes an observation vessel for digital holographic microscopy and a method for digital holographic microscopy by use of said vessel, there is disclosed that digital holographic microscopy enables studies of living cells without the need for markers or stains. Fact is that digital holographic microscopy and imaging renders monochromatic images, which up til now have implied that such technology has not been interesting for analysing labelled or stained cell samples. The use of markers is increasing, so also the interest in such markers and the possible applications in relation thereto for different sample analysis.</p><p>One way to study cells by means of digital holographic microscopy is disclosed in WO 2007/073345, where a method for analyzing a stage of development of cells and a device for enablement of the analysis is disclosed.</p><p>As mentioned above, another method for studying cells by means of digital holographic microscopy is disclosed in WO2009/154558.</p><p>As said above, the technology of digital holographic microscopy and imaging renders monochromatic images. This implies that this technology, e.g. defined in the inventions disclosed in WO 2007/073345 and WO2009/154558, has not been of interest in relation to use of labelling and staining of cell samples.</p><h1>SUMMARY OF THE INVENTION</h1><p>The present invention is directed to use of a digital holographic microscopy and imaging setup for detecting molecules or structures stained or labelled to at least one cell or conjugated to antibodies which are bound either directly to said at least one cell or indirectly via another or several antibodies in a chain bound to said at least one cell.</p><p>Moreover, the present invention also refers to a method for detecting such molecules or structures, said method comprising the steps of performing digital holographic microscopy and imaging on a cell sample by</p><p>a) creating at least one object beam and at least one reference beam of light, where said at least one object beam and said at least one reference beam are mutually coherent;</p><p>b) exposing said cell sample to said at least one object beam;</p><p>c) superimposing said at least one object beam that has passed through said cell sample with said at least one reference beam and thereby creating an interference pattern;</p><p>d) detecting said interference pattern, called hologram;</p><p>e) reconstructing phase and/or amplitude information of object wavefront from said interference pattern; and</p><p>f) constructing at least one cell analysis image for detection of molecules or structures stained or labelled to at least one cell or conjugated to antibodies which are bound either directly to said at least one cell or indirectly via another or several antibodies in a chain bound to said at least one cell.</p><?BRFSUM description="Brief Summary" end="tail"?><?DETDESC description="Detailed Description" end="lead"?><h1>DETAILED DESCRIPTION OF THE INVENTION</h1><p>In digital holography microscopy, several focal planes may be studied without having to mechanically set the microscope in relation to the different focal planes. Instead the different focal planes may be studied by processing the achieved data. Thereby, 3-dimensional images may be obtained. In particular, this method achieves a low rate of undesired interference, low levels of noise, accurate phase and amplitude information about a cell sample as well as high-resolution holographic images of the cell sample.</p><p>In one embodiment of the method according to the present invention, the mutually coherent at least one object beam and at least one reference beam of light are created by dividing a light beam originating from a coherent light source into two beams e.g. by means of a beam splitter. The light beam originating from a coherent light source may be a laser beam. The laser beam may originate from any kind of laser source, such as a He—Ne or a diode laser. Preferably a diode laser is used. The laser source may be linearly polarized.</p><p>The object beam and the reference beam are mutually coherent, which implies that they have the same wavelength and exhibit a constant phase relationship during the course of time.</p><p>The object beam is passed through the cell sample. The reference beam is left unaffected by the cell sample, since the reference beam is guided another path than the object beam, e.g. by means of beam splitters, mirrors and/or fibre optics.</p><p>The object beam has a known wavefront before passing through the cell sample. When the object beam passes through the at least one cell sample, the cell sample substantially does not absorb any light, but the light that travels through the cell sample will experience a difference in the optical path length compared to the surrounding medium. The wavefront that emerges from the cell sample, the object wavefront, will thus be phase shifted. Naturally, also the reference beam has a known wavefront. The optical path length is defined as the physical/geometrical thickness multiplied with the refractive index.</p><p>In one embodiment of the method according to the present invention, the superimposing of the at least one object beam that has passed through the cell sample and the at least one reference beam is achieved by bringing the two beams together e.g. by means of another beam splitter. This superimposition gives rise to an interference pattern, which for example includes information about the object wavefront that is affected by the at least one cell sample.</p><p>In one embodiment of the method according to the present invention, the interference pattern is detected by means of a digital sensor, such as a CCD or a CMOS. The detected interference pattern is called a hologram.</p><p>In order to superimpose the at least one object beam that has passed through the cell sample and the at least one reference beam and thereby creating an interference pattern and to detect the interference pattern for example a Fourier setup or a Fresnel setup may be used. Preferably a Fresnel setup is used. The difference between a Fourier setup and a Fresnel setup may be described as a difference in the optical configuration implying that a certain condition is fulfilled which makes an approximation, e.g. a Fresnel approximation, applicable in the reconstruction algorithm. This approximation simplifies the process of image reconstruction. In case of a Fresnel setup, the condition is that the distance between the object and the sensor is large compared to the size of the object and the size of the sensor. This is achieved by use of a microscope objective that collects the scattered light from the object and directs it to the sensor in an almost parallel light beam. This creates a virtual object that is positioned far away from the sensor.</p><p>From the detected interference pattern phase and/or amplitude information of the object wavefront is reconstructed. The reconstruction is carried out by means of any common numerical reconstruction process such as Fourier transform reconstruction or convolution reconstruction. The amplitude information may be used to set the focal plane of interest. The reconstructed information may for example be used to obtain an image in two dimensions or a 3D representation of the studied cell sample.</p><p>As an alternative for creating one object beam and one reference beam, in-line digital holography may be used. It is obvious for a person skilled in the art how to modify the method of the present invention in order to use inline digital holography, when studying this specification.</p><p>The obtained image is further used in image processing conducted by a computer in order to determine useful information about the studied object, such as shape, volume and optical density.</p><p>Several obtained images may also be further used in image processing in order to determine additional useful information about the studied object, such as changes in shape, volume and optical density.</p><h1>SPECIFIC EMBODIMENTS OF THE INVENTION</h1><p>In some embodiments, the molecules or structures or the antibodies are bound to the cell surface of said at least one cell. This further improves the lenience of the present invention, since the risk of harming the cell is decreased.</p><p>In some embodiments of the use of a digital holographic microscopy and imaging setup according to the present invention, the molecules or structures have a light absorption peak within a specific wavelength range and/or shift the polarization direction of a beam of light used in the digital holographic microscopy and imaging setup. By using molecules or structures that have a light absorption peak within a specific wavelength range the molecules or structures may be detected. By using molecules or structures that shift the polarization direction of a beam of light the molecules or structures may be detected.</p><p>According to one specific embodiment of the use of a digital holographic microscopy and imaging setup according to the present invention, more than one type of molecules or structures are stained or labelled to at least one cell at the same place or places of said cell or conjugated to the same type of antibodies which are bound either directly to said at least one cell or indirectly via another or several antibodies in a chain bound to said at least one cell, and wherein at least one of the molecules or structures have a light absorption peak within a specific wavelength range and at least one of the molecules or structures shift the polarization direction of a beam of light used in the digital holographic microscopy and imaging setup. According to this embodiment, molecules or structures having the ability to absorb light with a peak within a specific wavelength range are used together with molecules or structures having the ability to shift the polarization direction, i.e. two different types of molecules or structures are used. By combining these characteristics, it is possible to obtain both images created from light with different wavelengths and images created by different polarization directions. When having both these kinds of images, the certainty of the detection of the cell the molecules or structures are bound to is increased.</p><p>In some embodiments of the use of a digital holographic microscopy and imaging setup according to the present invention, the specific molecules or structures used have a light absorption peak within a specific wavelength range and shift the polarization direction of a beam of light used in the digital holographic microscopy and imaging setup. In these embodiments molecules or structures having both the ability to absorb light with a peak within a specific wavelength range and to shift the polarization direction are used, i.e. one type of molecules or structures are used. As said above, by combining these characteristics, it is possible to obtain both images created from light with different wavelengths and images created by different polarization directions. When having both these kinds of images, the certainty of the detection of the molecules or structures is increased and thus certainty of the detection of the cell the molecules or structures are bound to is increased.</p><p>In some embodiments of the use of a digital holographic microscopy and imaging setup according to the present invention, the digital holographic microscopy and imaging setup is arranged to expose said molecules or structures with light having at least two different wavelengths in comparison to one another. By exposing the molecules or structures with light having at least two different wavelengths the reliability of the detection of the molecules or structures is increased.</p><p>In some embodiments of the use of a digital holographic microscopy and imaging setup according to the present invention, the digital holographic microscopy and imaging setup is arranged to shift the polarization direction of at least one object beam of light and/or of at least one reference beam of light used in the digital holographic microscopy and imaging setup. By shifting the polarization direction of an object beam and/or a reference beam of light the reliability of the detection of the molecules or structures is increased.</p><p>Preferably, the polarization directions of the at least one object beam and the at least one reference beam are shifted so that the polarization directions obtained are perpendicular or substantially perpendicular to each other. From the beginning, the polarization directions of the at least one reference beam and of the at least one object beam are normally the same. However, for the detection of molecules or structure which have the ability to change the polarization directions of light in a randomised way, the polarization directions of the at least one object beam in relation to the at least one reference beam should be shifted towards being perpendicular to each other. According to this embodiment of the present invention, the angle of the polarization direction of the at least one object beam in relation to the at least one reference beam does not have to be exactly 90 or 270 degrees to be able to detect molecules or structures that shift the polarization direction of light or change the polarization direction in a randomized way. However, as the angle is shifted towards having a perpendicular polarization direction of the at least one object beam in relation to the polarization direction of the at least one reference beam, it will be easier to detect the molecules and structures. An angle of less than 90 degrees or more than 90 degrees will also work according to the present invention, such as an angle of e.g. between 75-89 degrees or e.g. 91-105 degrees, i.e. or 255-269 degrees or 271-285 degrees. However, at an angle of 90 or 270 degrees the only interference pattern detectable is from the molecules or structures which themselves change the polarization direction in a randomized way.</p><p>In relation to the method according to the present invention, according to one specific embodiment, two or more wavelengths are used, wherein the specific molecules or structures used have a light absorption peak in a wavelength range covering at least one, but not all of the two or more wavelengths, and wherein the steps a) to f) are performed for each of the used wavelengths, thereby enabling comparison of said one and same at least one cell in images obtained in step f) and created from light with different wavelengths.</p><p>By using two or more wavelengths it is possible to increase the reliability of the method according to the present invention. If molecules or structures are used which have a light absorption peak in a specific wavelength range, it is possible to use at least one wavelength within that range and one outside that range. As such, the actual detection of the molecules or structures may be determined.</p><p>Moreover, by using at least two wavelengths and produce an image for each of the used wavelengths it is possible to compare the obtained images. Since the molecules or structures used have a light absorption peak within a wavelength range covering at least one of the used wavelengths and not one other used wavelength, the molecules or structures will affect at least one of the images and not affect at least one other image. By comparing an affected and an unaffected image, the molecules or structures are detected.</p><p>One way to carry out the method involving two or more wavelengths is to first perform steps a) to f) for one of the used wavelengths and then perform steps a) to f) for one other of the used wavelengths and if more than two wavelengths are used perform steps a) to f) for the remaining wavelengths one at a time.</p><p>One alternative way is to first perform steps a) to d) for one of the used wavelengths and then perform steps a) to d) for one other of the used wavelengths and if more than two wavelengths are used perform steps a) to d) for the remaining wavelengths one at a time. Thereafter, steps e) and f) may be performed in parallel for all of the used wavelengths. This alternative way increases the speed with which the method is carried out, i.e. decreases the time for carrying out the method.</p><p>In some embodiments of the method according to the present invention, two wavelengths are used, one covered by the wavelength range in which the specific molecules or structures used have a light absorption peak, and one wavelength outside said wavelength range, and wherein two cell analysis images are constructed for comparison.</p><p>In general it is sufficient to carry out the method using two different wavelengths, since then one image affected by the molecules or structures is obtained and one image unaffected by the molecules or structures is obtained. Thus, it is possible to compare the two images and detect the molecules or structures. By only using two wavelengths, the efficiency of the method is increased compared with using more than two wavelengths. However, by using more than two wavelengths the accuracy increases.</p><p>According to another specific embodiment of the method according to the present invention, the specific molecules or structures used shift the polarization direction of light, and wherein steps a) to f) are performed at least once without and at least once with the addition to step a) of shifting the polarization direction of the object beam and/or reference beam, thereby enabling comparison of said one and same at least one cell in images obtained in step f) and created by different polarization directions.</p><p>In this embodiment, at least one image where the polarization direction is shifted by the molecules or structures used is produced. When the polarization direction of the object beam or the reference beam is shifted, molecules or structures which in themselves shift the polarization direction randomized are visualized. By only shifting the polarization directions of the at least one object beam and/or the at least one reference beam so that they are perpendicular or substantially perpendicular to each other, and not having any molecules or structures which shift the polarization direction in themselves, a “zero image” not showing anything would be obtained. However, if molecules or structures are used which shift the polarization direction these will be shown in an image according to this specific embodiment of the present invention. As such, this is also a way of removing risk of uncertainties in relation to if you in fact are seeing molecules or structures stained or labelled to at least one cell or conjugated to antibodies which are bound either directly to said at least one cell or indirectly via another or several antibodies in a chain bound to said at least one cell.</p><p>It is important to realize that the expression “shifting the polarization direction of the at least one object beam and/or the at least one reference beam” does not include shifting both the at least one object beam and the at least one reference beam at the same time in a way which corresponds to creating an image without shifting the polarization directions of the at least one object beam and/or the at least one reference beam in relation to one another, i.e. going back to the initial position or a corresponding position before shifting the polarization directions.</p><p>According to one specific embodiment of the method according to the present invention, the specific molecules or structures used shift the polarization direction of light, and wherein steps a) to f) are performed at least once without and at least once with the addition to step a) of shifting the polarization direction of the at least one object beam and/or at least one reference beam so that the polarization directions of the at least one object beam and the at least one reference beam are perpendicular or substantially perpendicular to each other, thereby enabling comparison of said one and same at least one cell in images obtained in step f) and created by different polarization directions. The interest in having perpendicular polarization directions of the at least one object beam in relation to the at least one reference beam is further explained above.</p><p>One way to carry out the method involving performing steps a) to f) without and with the addition to step a) of shifting the polarization direction of the object beam and/or reference beam is to first perform steps a) to f) without the addition to step a) and then perform steps a) to f) including shifting the polarization direction of the at least one object beam and/or the at least one reference beam.</p><p>One alternative way is to first perform steps a) to d) without the addition to step a) and then perform steps a) to d) including shifting the polarization direction of the object beam and/or reference. Thereafter, steps e) and f) may be performed in parallel for the sequences of steps a) to d) performed without and with the addition to step a). This alternative way increases the speed with which the method is carried out, i.e. decreases the time for carrying out the method.</p><p>In some embodiments of the method according to the present invention, more than one type of molecules or structures are used and wherein at least one of the molecules or structures have a light absorption peak within a specific wavelength range and at least one of the molecules or structures shift the polarization direction of the at least one object beam of light and/or the at least one reference beam of light. In these embodiments molecules or structures having the ability to absorb light with a peak within a specific wavelength range are used together with molecules or structures having the ability to shift the polarization direction, i.e. two different types of molecules or structures are used. By combining these characteristics, it is possible to obtain both images created from light with different wavelengths and images created by different polarization directions. When having both these kinds of images, the certainty of the detection of the cell the molecules or structures are bound to is increased.</p><p>In some embodiments of the method according to the present invention, the specific molecules or structures used have a light absorption peak within a specific wavelength range and shift the polarization direction of the at least one object beam of light and/or the at least one reference beam of light. In these embodiments molecules or structures having both the ability to absorb light with a peak within a specific wavelength range and to shift the polarization direction are used, i.e. one type of molecules or structures are used. As said above, by combining these characteristics, it is possible to obtain both images created from light with different wavelengths and images created by different polarization directions. When having both these kinds of images, the certainty of the detection of the molecules or structures is increased and thus certainty of the detection of the cell the molecules or structures are bound to is increased.</p><p>In some embodiments of the method according to the present invention, two or more wavelengths are used, wherein at least one type of the specific molecules or structures used have a light absorption peak in a wavelength range covering at least one, but not all of the two or more wavelengths used, wherein the steps a) to f) are performed for each of the used wavelengths, and wherein at least one type of the specific molecules or structures used shift the polarization direction of light, wherein the steps a) to f) are performed at least once without and at least once with the addition to step a) of shifting the polarization direction of the at least one object beam and/or the at least one reference beam, thereby enabling comparison of said one and same at least one cell in images created from light with different wavelengths and by different polarization directions. In these embodiments, images created from light with different wavelengths and images created by different polarization directions are obtained. Thereby it is possible to analyze both these factors and thereby the certainty of the detection of the molecules or structures may be increased and the certainty of the detection of the cell the molecules or structures are bound to is increased. The minimum number of images produced in these embodiments of the method is three. One of these images may be a reference image obtained with a first wavelength and without the addition to step a). One of these images may be an image obtained using a second wavelength and without the addition to step a). One of these images may be an image obtained with the first wavelength, but with the addition to step a). However, in order to increase the accuracy of the method, both the number of images created from light with different wavelengths and images created by different polarization directions may be increased. Moreover, also in this case the shifting of the polarization direction of the at least one object beam and/or the at least one reference beam may be performed so that the polarization directions of the at least one object beam and the at least one reference beam are perpendicular or substantially perpendicular to each other.</p><?DETDESC description="Detailed Description" end="tail"?>        </div>
+    </div>
+
+    <br clear="all"/><br/>
+
+
+    <br clear="all"/><br/>
+    <div class="disp_doc2">
+
+            <center>
+    
+    <a onClick="_gaq.push(['_trackEvent', 'Bottom', 'Click', 'Previous']);" href="/8937755.html">&lt;- Previous Patent (Image recording devi...)</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a onClick="_gaq.push(['_trackEvent', 'Bottom', 'Click', 'Next']);" href="/8937757.html">Next Patent (Optical deflector ap...) -&gt;</a>
+            </center>
+        <br clear="all"/><br/>
+</div>
+    <br clear="all"/><br/>
+        </div>
+
+        <div class="pageFooter">
+    <div class="row-fluid top">
+        <div class="figure"></div>
+        <ul>
+            <li>
+                <a href="/" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'Home']);">Home</a>
+            </li>
+            <li>
+                <a href="/search.html" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'Search']);">Search</a>
+            </li>
+            <li>
+                <a href="/services.html" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'Services']);">Services</a>
+            </li>
+            <li>
+                <a href="http://research.freepatentsonline.com"
+                   onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'Data']);">Communities</a>
+            </li>
+            <li>
+                <a href="http://research.freepatentsonline.com/help"
+                   onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'Help']);">Help</a>
+            </li>
+            <li>
+                <a href="/contact.html"
+                   onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'Contact']);">Contact us</a></li>
+            <li>
+                <a href="http://research.freepatentsonline.com/help#advertising-on-site"
+                   onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'Advertise']);">Advertise on this Site</a>
+            </li>
+        </ul>
+        <ul class="socialIcons">
+            <li><a href="https://twitter.com/FPOCommunity" class="twitter"
+                   onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'social twitter']);"></a></li>
+            <li><a href="http://www.linkedin.com/groups/FPO-Community-4524797" class="linkedin"
+                   onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'social linkedin']);"></a></li>
+            <li><a href="/contact.html" class="email"
+                   onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'social email']);"></a></li>
+        </ul>
+    </div>
+    <div class="row-fluid bot">
+        <p>
+            &copy; 2004-2017 FreePatentsOnline.com. All rights reserved.
+            <a href="/privacy.html" onclick="_gaq.push(['_trackEvent', 'Footer', 'Click', 'Privacy']);">Privacy Policy
+                &amp; Terms of Use.</a>
+            <a href="http://www.sumobrainsolutions.com/">A SumoBrain Solutions Company</a>
+        </p>
+    </div>
+</div>    </div>
+</div>
+
+
+<script type="text/javascript">
+
+    _gaq.push(['_setCustomVar', 2, 'User Origin Source', 'no referer', 2]);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+<script type="text/javascript">
+    function trackPageLoad() {
+        var plend = new Date();
+        var plload = plend.getTime() - plstart.getTime();
+        var pn = document.location.pathname;
+        var lc = 'slow';
+        var la = new Array(200, 300, 400, 500, 1000, 1500, 2000, 2500, 5000);
+        for (var i = 0, len = la.length; i < len; i++) {
+            if (plload <= la[i]) {
+                lc = String(la[i]);
+                break;
+            }
+        }
+        _gaq.push(['onLoadTracker._setAccount', 'UA-174791-5']);
+        _gaq.push(['onLoadTracker._trackEvent', "LoadTime", lc, pn, plload]);
+        }
+</script>
+<script type="text/javascript">
+    try {
+        if (window.onload != null) {
+            var oldOnload = window.onload;
+            window.onload = function (e) {
+                oldOnload(e);
+                trackPageLoad();
+            };
+        }
+        else {
+            window.onload = trackPageLoad();
+        }
+    } catch (err) {
+    }
+</script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="/js/fpo_2.js"></script>
+
+<!--[if IE 6]>
+    <script type="text/javascript" src="/js/ie6_compat.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+    (function () {
+        var hasPlaceholder = 'placeholder' in document.createElement('input');
+        if (!hasPlaceholder) {
+            $.cachedScript("/js/jquery.placeholder.min.js").success(function (script, textStatus) {
+                $('input, textarea').placeholder();
+            });
+        }
+    })();
+</script>
+</body>
+</html>
+
